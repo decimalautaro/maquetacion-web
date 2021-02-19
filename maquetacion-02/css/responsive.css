@@ -1,0 +1,255 @@
+@media (max-width: 1250px){
+    .wrap{
+        width: 100%;
+        margin: 0px auto;
+    }
+    #banner h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin: 33px auto;
+    }
+
+    #card{
+        width: 17%;
+        margin: 1.4%;
+
+    }
+    #card p{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+
+    }
+    #articulo{
+        width: 64%;
+    }
+    #articulo .article {
+        width: 90%;
+    }
+    #footer .wrap > div{
+        width: 24%;
+        margin: 4%;
+    }
+    #footer #browser img {
+        width: 13%;
+    }
+    #footer h5{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 1098px){
+    #card .categoria{
+        font-size: 17px;
+    }
+    #card .descripcion{
+        font-size: 14px;
+    }
+    #articulo{
+        width: 58%;
+    }
+}
+@media (max-width: 928px){
+    #articulo{
+        width: 56%;
+    }
+    #footer .wrap > div{
+        width: 24%;
+         margin: 28px;
+        }
+    #footer h5{
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 874px){
+    #nav{
+        margin-right: 10%;
+    }
+    #articulo{
+        width: 54%;
+    }
+    #lateral{
+        font-size: 20px;
+    }
+    #login input[type="reset"]{
+        display: none;
+    }
+    .aside-box{
+        width: 75%;
+        min-height: 140px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    #login a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #login input[type= "submit"]{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 830px){
+    #articulo{
+        width: 50%;
+    }
+    #banner h1{
+        font-size: 25px;
+    }
+ #card{
+        height: auto;
+    }
+
+    #card .categoria{
+        font-size: 13px;
+      
+    }
+
+#card .descripcion{
+    display: none;
+    width: auto;
+}
+#footer img{
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+}
+@media (max-width: 746px){
+    #header{
+        width: 100%;
+        height: 110px;
+        padding-top: 10px;
+    }
+    #logo{
+       float: none;
+       width: 200px;
+       margin: 0px auto;
+        
+    }
+    #nav{
+        clear: both;
+        float:none;
+        width: 490px;
+        margin: 0px auto;
+    }
+    #articulo .data{
+        font-size: 10px;
+    }
+}
+@media (max-width: 680px){
+    #banner h1{
+        font-size:25px;
+    }
+    #articulo{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+    #lateral input[type="text"] {
+        width: 89%;
+    }
+    #lateral input[type="button"] {
+        padding-left: 17px;
+    }
+    #login input[type= "text"], #login input[type= "password"] {
+        width: 89%;
+    }
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #footer .wrap > div{
+        width: 100%;
+         margin: 0px auto;
+         margin-top: 20px;
+        }
+    #footer h5{
+        font-size: 35px;
+    }
+    aside h3{
+        text-align: center;
+    }
+}
+@media (max-width: 434px){
+    #logo {
+        float: none;
+        width: 50%;
+    }
+    #header{
+        width: 100%;
+        height: 175px;
+        padding-top:10px ;
+    }
+    #nav{
+        clear: both;
+        float:none;
+        width: 100%;
+        margin: 0px auto;
+    }
+    #nav ul li {
+        width: 100%;
+      line-height: 52px;
+    }
+    #nav ul li a{
+        width: 100%;
+      line-height: 30px;
+    }
+    #nav ul li a:hover{
+        color: #37bcf9;
+        transform:scale(1,1) ;
+    }
+    #banner{
+        height: 85px;
+    }
+    #banner h1{
+        font-size: 18px;
+    }
+    #lateral input[type="text"],
+    #lateral input[type="password"]{
+        width: 85%;
+    }
+    #card .icon{
+        font-size: 35px;
+    }
+    #card:hover .icon{
+        font-size: 35px;
+    }
+    #card .categoria{
+        font-size: 13px;
+    }
+    #footer ul {
+        text-align: left;
+        margin: 40px;
+        font-size: 25px;
+    }
+    #articulo .data{
+        float: none; ;
+        margin: -10px ;
+        border-radius: 0px 0px 0px 0px;
+    }
+    #articulo article h4{
+        margin-top: 20px;
+    }
+    #nav {
+        clear: both;
+        text-align: center;
+        width: 100%;
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
